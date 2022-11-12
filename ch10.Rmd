@@ -524,7 +524,7 @@ It's also possible to specify the legend label appearance via `guides()`, althou
 ```{r eval=FALSE}
 # Changes the legend title text for the fill legend
 pg_plot +
-  guides(fill = guide_legend(title.theme = element_text(
+  guides(fill = guide_legend(label.theme = element_text(
     face = "italic",
     family = "times",
     colour = "red",
